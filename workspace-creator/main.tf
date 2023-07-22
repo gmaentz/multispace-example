@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "fancycorp"
+    organization = "gabe-lab"
 
     workspaces {
       tags = ["multispace:workspace-creator"]
