@@ -37,7 +37,7 @@ resource "tfe_workspace" "downstream" {
   auto_apply     = true
   queue_all_runs = false
   force_delete   = true
-  project_id     = data.tfe_workspace.self.project_id
+  # project_id     = data.tfe_workspace.self.project_id
 
   working_directory = "upstream-downstream"
 
